@@ -62,7 +62,7 @@ module.exports = function(config) {
     customLaunchers: {
       ChromeHeadlessNoSandbox: {
         base: 'Chrome',
-        flags: ['--no-sandbox', '--disable-dev-shm-usage', 'headless']
+        flags: ['--no-sandbox', '--disable-dev-shm-usage', '--headless']
       }
     },
 
