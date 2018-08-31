@@ -1,10 +1,14 @@
 sudo: required
-dist: trusty
 addons:
     chrome: stable
-before_script:
-    - "sudo chown root /opt/google/chrome/chrome-sandbox"
-    - "sudo chmod 4755 /opt/google/chrome/chrome-sandbox"
+before_install:
+- curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.9.4
+- export PATH="$HOME/.yarn/bin:$PATH"
+- curl -O http://www.slimjetbrowser.com/chrome/lnx/chrome64_57.0.2987.133.deb
+- sudo dpkg -i chrome64_57.0.2987.133.deb
+- export CHROME_BIN=chromium-browser
+- export DISPLAY=:99.0
+- sh -e /etc/init.d/xvfb start
 language: node_js
 node_js:
 - 8.11.4
