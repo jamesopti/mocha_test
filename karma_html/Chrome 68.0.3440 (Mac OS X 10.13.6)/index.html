@@ -93,20 +93,17 @@ body { background-color: #eeeeee; padding: 0; margin: 5px; overflow-y: scroll; }
 </style>
 </head>
 
-<body id="HTMLReporter" class="html-reporter showDetails">
+<body id="HTMLReporter" class="html-reporter">
 <h1>Tested in Chrome 68.0.3440 (Mac OS X 10.13.6) on Fri Aug 31 2018</h1>
 
 <div class="alert">
 
 
-<!-- <span class="failingAlert bar">Failed 20 specs</span> -->
-<span class="failingAlert bar"><span class="fold-buttons"><a href="#" onclick="fold();">Fold</a> | 
-  <a href="#" onclick="unfold();">Unfold</a></span>20 specs, 20 failed, 0 pending</span>
-<span class="resultsMenu bar">
-<a class="summaryMenuItem" onclick="showSummary();" href="#">Spec List<a>|<a 
-   class="detailsMenuItem" onclick="showFailures();" href="#">Failures</a>
-</span>
 
+  
+  <span class="passingAlert bar"><span class="fold-buttons"><a href="#" onclick="fold();">Fold</a> | 
+  <a href="#" onclick="unfold();">Unfold</a></span>12 specs, 0 failed, 0 pending</span>
+  
 
 
 </div>
@@ -117,92 +114,11 @@ body { background-color: #eeeeee; padding: 0; margin: 5px; overflow-y: scroll; }
   
   
   
-    <div class="suite failed">
-      <span class="description">Suite A - 10 tests total A</span>
+    <div class="suite passed">
+      <span class="description">error after test complete</span>
     
-      <div class="specSummary failed">
-      <span class="description">A.t1</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">A.t1</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">A.t2</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">A.t3</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">A.t4</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">A.t5</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">A.t6</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">A.t7</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">A.t8</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">A.t9</span>
-      </div>
-    
-    </div>
-  
-    <div class="suite failed">
-      <span class="description">Suite B - 10 tests total B</span>
-    
-      <div class="specSummary failed">
-      <span class="description">B.t1</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">B.t2</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">B.t3</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">B.t4</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">B.t5</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">B.t6</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">B.t7</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">B.t8</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">B.t9</span>
-      </div>
-    
-      <div class="specSummary failed">
-      <span class="description">B.t10</span>
+      <div class="specSummary passed">
+      <span class="description">callback</span>
       </div>
     
     </div>
@@ -211,210 +127,6 @@ body { background-color: #eeeeee; padding: 0; margin: 5px; overflow-y: scroll; }
 </div>
 
 <div id="details">
-  
-  
-  <div class="specDetail failed">
-    <span class="description">Suite A - 10 tests total A A.t1</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:2918)
-    at Assertion.eql (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:4620)
-    at Promise.resolve.then.then (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:1198)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite A - 10 tests total A A.t1</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:2918)
-    at Assertion.eql (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:4620)
-    at Context.&lt;anonymous&gt; (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:1238)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite A - 10 tests total A A.t2</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:2918)
-    at Assertion.eql (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:4620)
-    at Context.&lt;anonymous&gt; (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:1276)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite A - 10 tests total A A.t3</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:2918)
-    at Assertion.eql (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:4620)
-    at Context.&lt;anonymous&gt; (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:1314)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite A - 10 tests total A A.t4</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:2918)
-    at Assertion.eql (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:4620)
-    at Context.&lt;anonymous&gt; (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:1352)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite A - 10 tests total A A.t5</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:2918)
-    at Assertion.eql (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:4620)
-    at Context.&lt;anonymous&gt; (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:1390)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite A - 10 tests total A A.t6</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:2918)
-    at Assertion.eql (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:4620)
-    at Context.&lt;anonymous&gt; (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:1428)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite A - 10 tests total A A.t7</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:2918)
-    at Assertion.eql (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:4620)
-    at Context.&lt;anonymous&gt; (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:1466)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite A - 10 tests total A A.t8</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:2918)
-    at Assertion.eql (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:4620)
-    at Context.&lt;anonymous&gt; (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:1504)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite A - 10 tests total A A.t9</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:2918)
-    at Assertion.eql (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:4620)
-    at Context.&lt;anonymous&gt; (base/src/a_tests.js?21775bb58d0cb8ccd41deb2a323821e63aa1d924:1:1542)</div>
-    </div>
-  </div>
-  
-  
-  
-  <div class="specDetail failed">
-    <span class="description">Suite B - 10 tests total B B.t1</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:2341)
-    at Assertion.eql (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:4043)
-    at Context.&lt;anonymous&gt; (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:8:22367)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite B - 10 tests total B B.t2</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:2341)
-    at Assertion.eql (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:4043)
-    at Context.&lt;anonymous&gt; (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:8:22405)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite B - 10 tests total B B.t3</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:2341)
-    at Assertion.eql (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:4043)
-    at Context.&lt;anonymous&gt; (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:8:22443)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite B - 10 tests total B B.t4</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:2341)
-    at Assertion.eql (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:4043)
-    at Context.&lt;anonymous&gt; (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:8:22481)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite B - 10 tests total B B.t5</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:2341)
-    at Assertion.eql (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:4043)
-    at Context.&lt;anonymous&gt; (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:8:22519)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite B - 10 tests total B B.t6</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:2341)
-    at Assertion.eql (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:4043)
-    at Context.&lt;anonymous&gt; (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:8:22557)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite B - 10 tests total B B.t7</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:2341)
-    at Assertion.eql (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:4043)
-    at Context.&lt;anonymous&gt; (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:8:22595)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite B - 10 tests total B B.t8</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:2341)
-    at Assertion.eql (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:4043)
-    at Context.&lt;anonymous&gt; (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:8:22633)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite B - 10 tests total B B.t9</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:2341)
-    at Assertion.eql (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:4043)
-    at Context.&lt;anonymous&gt; (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:8:22671)</div>
-    </div>
-  </div>
-  
-  <div class="specDetail failed">
-    <span class="description">Suite B - 10 tests total B B.t10</span>
-    <div class="stackTrace">
-      <div class="resultMessage">Error: expected 1 to sort of equal 0
-    at Assertion.assert (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:2341)
-    at Assertion.eql (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:1:4043)
-    at Context.&lt;anonymous&gt; (base/src/b_tests.js?a7384476e8ec46c983f3a52309e9624797b20687:8:22710)</div>
-    </div>
-  </div>
-  
   
 </div>
 
@@ -427,7 +139,7 @@ document.body.onkeypress = function (e) {
   switch (e.keyCode) {
     case 102: toggleFold(); break;
     case 49: showSummary(); break;
-    case 50: showFailures(); break;case 50: showFailures(); break;
+    
   }
 };
 

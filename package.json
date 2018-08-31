@@ -20,7 +20,7 @@
     "karma-html-reporter": "^0.2.7",
     "karma-mocha": "^1.3.0",
     "karma-webpack": "^3.0.0",
-    "mocha": "^5.2.0",
+    "mocha": "5.0.2",
     "webpack": "^4.17.1"
   }
 }
