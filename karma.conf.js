@@ -57,11 +57,11 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['ChromeNoSandbox'],
+    browsers: ['Chrome__NoSandbox'],
 
     // you can define custom flags
     customLaunchers: {
-      ChromeNoSandbox: {
+      Chrome__NoSandbox: {
         base: 'Chrome',
         flags: ['--no-sandbox']
       }
